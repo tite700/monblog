@@ -65,10 +65,38 @@ class __TwigTemplate_6639f0fc181072de0b26cb764fc60dd7 extends Template
         // line 15
         echo "    </head>
     <body>
+
+        <nav class=\"py-2 bg-dark border-bottom\">
+            <div class=\"container d-flex flex-wrap\">
+                <div class=\"dropdown\">
+                    <a class=\"nav nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                        Mon blog
+                    </a>
+                    <ul class=\"dropdown-menu\">
+                        <li><a class=\"dropdown-item\" href=\"#\">Tableau de bord</a></li>
+                        <li><a class=\"dropdown-item\" href=\"#\">Menus</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class=\"py-2 bg-dark border-bottom\">
+            <div class=\"container d-flex flex-wrap\">
+                <div class=\"dropdown\">
+                    <a class=\"nav nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                        Ajouter
+                    </a>
+                    <ul class=\"dropdown-menu\">
+                        <li><a class=\"dropdown-item\" href=\"#\">Article</a></li>
+                        <li><a class=\"dropdown-item\" href=\"#\">Page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         ";
-        // line 17
+        // line 45
         $this->displayBlock('body', $context, $blocks);
-        // line 18
+        // line 46
         echo "    </body>
 </html>
 ";
@@ -145,7 +173,7 @@ class __TwigTemplate_6639f0fc181072de0b26cb764fc60dd7 extends Template
 
     }
 
-    // line 17
+    // line 45
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -170,7 +198,7 @@ class __TwigTemplate_6639f0fc181072de0b26cb764fc60dd7 extends Template
 
     public function getDebugInfo()
     {
-        return array (  149 => 17,  136 => 13,  126 => 12,  113 => 9,  103 => 8,  84 => 5,  72 => 18,  70 => 17,  66 => 15,  64 => 12,  61 => 11,  58 => 8,  53 => 5,  47 => 1,);
+        return array (  177 => 45,  164 => 13,  154 => 12,  141 => 9,  131 => 8,  112 => 5,  100 => 46,  98 => 45,  66 => 15,  64 => 12,  61 => 11,  58 => 8,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -191,6 +219,34 @@ class __TwigTemplate_6639f0fc181072de0b26cb764fc60dd7 extends Template
         {% endblock %}
     </head>
     <body>
+
+        <nav class=\"py-2 bg-dark border-bottom\">
+            <div class=\"container d-flex flex-wrap\">
+                <div class=\"dropdown\">
+                    <a class=\"nav nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                        Mon blog
+                    </a>
+                    <ul class=\"dropdown-menu\">
+                        <li><a class=\"dropdown-item\" href=\"#\">Tableau de bord</a></li>
+                        <li><a class=\"dropdown-item\" href=\"#\">Menus</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class=\"py-2 bg-dark border-bottom\">
+            <div class=\"container d-flex flex-wrap\">
+                <div class=\"dropdown\">
+                    <a class=\"nav nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
+                        Ajouter
+                    </a>
+                    <ul class=\"dropdown-menu\">
+                        <li><a class=\"dropdown-item\" href=\"#\">Article</a></li>
+                        <li><a class=\"dropdown-item\" href=\"#\">Page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         {% block body %}{% endblock %}
     </body>
 </html>

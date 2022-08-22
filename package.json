@@ -1,5 +1,28 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.2.0"
-  }
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  },
+  "name": "monblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tite700/monblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tite700/monblog/issues"
+  },
+  "homepage": "https://github.com/tite700/monblog#readme",
+  "description": ""
 }
