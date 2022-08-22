@@ -12,7 +12,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* @EasyAdmin/crud/index.html.twig */
+/* @EasyAdmin/crud/show.html.twig */
 class __TwigTemplate_a9e0db94d63673832dd6fb024009d7b6 extends Template
 {
     private $source;
@@ -50,17 +50,17 @@ class __TwigTemplate_a9e0db94d63673832dd6fb024009d7b6 extends Template
     protected function doGetParent(array $context)
     {
         // line 4
-        return $this->loadTemplate(twig_get_attribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 4, $this->source); })()), "templatePath", [0 => "layout"], "method", false, false, false, 4), "@EasyAdmin/crud/index.html.twig", 4);
+        return $this->loadTemplate(twig_get_attribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 4, $this->source); })()), "templatePath", [0 => "layout"], "method", false, false, false, 4), "@EasyAdmin/crud/show.html.twig", 4);
     }
 
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/crud/index.html.twig"));
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/crud/show.html.twig"));
 
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/crud/index.html.twig"));
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/crud/show.html.twig"));
 
         // line 5
         $context["__internal_20dc1e7b3ce12f0bf431f4bb7bbe01bc2101c26633561237561a522ecefb4776"] = twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 5, $this->source); })()), "i18n", [], "any", false, false, false, 5), "translationDomain", [], "any", false, false, false, 5);
@@ -1057,7 +1057,7 @@ class __TwigTemplate_a9e0db94d63673832dd6fb024009d7b6 extends Template
 
     public function getTemplateName()
     {
-        return "@EasyAdmin/crud/index.html.twig";
+        return "@EasyAdmin/crud/show.html.twig";
     }
 
     public function isTraitable()
@@ -1313,6 +1313,6 @@ class __TwigTemplate_a9e0db94d63673832dd6fb024009d7b6 extends Template
         {{ include('@EasyAdmin/crud/includes/_batch_action_modal.html.twig', {}, with_context = false) }}
     {% endif %}
 {% endblock main %}
-", "@EasyAdmin/crud/index.html.twig", "/Users/Baptiste_David/monblog/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/index.html.twig");
+", "@EasyAdmin/crud/show.html.twig", "/Users/Baptiste_David/monblog/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/show.html.twig");
     }
 }
